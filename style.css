@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poplins", sans-serif;
+}
+body {
+    color: #000000;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-family: fantasy;
+    
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+    font-family: fantasy;
+    padding: 17px;
+    border: none;
+    border-radius: 40px;
+}
+.lo { 
+    border: solid red;
+    color: blue;
+}
+.navbar a:hover {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+    background: rgb(235, 3, 3);
+
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(./Photes/Desktop\ -\ 1\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+.bathroom {
+    max-width: 600px;
+}
+.bathroom h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: aliceblue;
+    margin: 40px;
+
+}
+.bathroom h1 {
+    font-weight: 700;
+    font-size: 56px;
+    margin: -3px 0;
+    color: aliceblue;
+    text-shadow: 2px 2px lightskyblue;
+    margin-left: 40px;
+}
+.bathroom h1:hover {
+    font-weight: 700;
+    font-size: 67px;
+    margin-left: -3px 0;
+    color: rgb(247, 247, 247);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.bathroom p {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+.room {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    margin-left: 40px;
+}
+.btn-box {
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(255, 54, 54);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 34px;
+    margin-top: 10px;
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px red, 0 0 10px rgb(255, 19, 19), 0 0 20px rgb(255, 1, 1), 0 0 30px rgb(255, 0, 0);
+    
+}
+.about-me {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-image: url(./Photes/Desktop\ -\ 1\ \(5\).jpg);
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+
+.other {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-image: url(./Photes/2fcc293d55d3d4e29bd16752245822a6.jpg);
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+.project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-image: url(./Photes/d13556ec053cffc2410a682ee33436d6.jpg);
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+.contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-image: url(./Photes/photo_2023-01-10_09-38-57.jpg);
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+.hi {
+    width: 550px;
+    height: 90vh;
+    background-image: url(./Photes/Untitled.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 60%;
+    margin-bottom: 30px;
+}
